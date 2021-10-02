@@ -63,4 +63,4 @@ jobs:
         script: |
           sudo docker pull aleksandr84d/infra:v1.09.2021
           sudo docker stop $(sudo docker ps -a -q)
-          sodo docker run --rm -d -p 5000:5000 aleksandr84d/infra:v1.09.2021
+          sudo docker run --rm -d -p 5000:5000 aleksandr84d/infra:v1.09.2021
